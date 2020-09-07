@@ -1,0 +1,7 @@
+2020-09-07 01:42:18,195 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition: Open browser
+2020-09-07 01:42:28,820 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition- STEP 01: Open Login Page
+2020-09-07 01:42:28,830 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition- STEP 02: Input to Email textbox
+2020-09-07 01:42:29,138 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition- STEP 03: Click To Login Button
+2020-09-07 01:42:29,277 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition- STEP 04: Input to Password textbox
+2020-09-07 01:42:30,029 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition- STEP 05: Click to login button
+2020-09-07 01:42:30,145 INFO  com.wordpress.posts.Post_01_Create_View_Edit_Delete - Pre-Condition- STEP 06: Verify Header Text display

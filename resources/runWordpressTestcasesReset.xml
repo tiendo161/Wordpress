@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WordPress" parallel="false">
+
+<!-- <listeners> -->
+<!-- 	<listener class-name ="commons.MethodListener"/> -->
+<!-- 	<listener class-name ="reportConfig.ExtentReportListener"/> --> -->
+<!-- 	<listener class-name="org.uncommons.reportng.HTMLReporter"/> -->
+<!--     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/> -->
+<!-- </listeners> -->
+
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.wordpress.posts.Post_01_Create_View_Edit_Delete" />
+		</classes>
+	</test>
+
+<!-- 	<test name="Run on Chrome"> -->
+<!-- 		<parameter name="browser" value="Chrome" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wordpress.login.Login_12_Log_Report_HTML" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+<!-- 	<test name="Run on Chrome Headless"> -->
+<!-- 		<parameter name="browser" value="chrome_headless" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.wordpress.login.Login_12_Log_Report_HTML" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+
+</suite> 

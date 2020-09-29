@@ -26,15 +26,6 @@ import pageObjects.wordpress.user.PostDetailPageObject;
 import pageObjects.wordpress.user.SearchResultPageObject;
 import pageUI.wordpress.user.AbstractPageUI;
 
-//import pageObjects.wordpress.MediaPageObject;
-//import pageObjects.wordpress.PageGeneratorManager;
-//import pageObjects.wordpress.PagesPageObject;
-//import pageObjects.wordpress.PostsPageObject;
-//import pageUI.bankGuru.AbstractBankPageUI;
-//import pageUI.wordpress.AbstractPageUI;
-//import pageUI.wordpress.DashboardPageUI;
-//import pageUI.wordpress.PagesPageUI;
-//import pageUI.wordpress.PostsPageUI;
 
 public class AbstractPage {
 
@@ -713,51 +704,6 @@ public class AbstractPage {
 	
 	
 	
-	
-	/* APPLY DYNAMIC PAGE COMPONENT FOR BANKGURU PROJECT */
-//
-//	public void inputToDynamicTextbox(WebDriver driver, String nameAttributeValue, String inputValue) {
-//		waitForElementVisible(driver, AbstractBankPageUI.DYNAMIC_TEXTBOX, nameAttributeValue);
-//		if (nameAttributeValue.equals("dob")) {
-//			removeAttributeInDOM(driver, AbstractBankPageUI.DYNAMIC_TEXTBOX, "type", nameAttributeValue);
-//			sleepInSecond(1);
-//		}
-//		sendkeyToElement(driver, AbstractBankPageUI.DYNAMIC_TEXTBOX, inputValue, nameAttributeValue);
-//
-//	}
-//
-//	public void inputToDynamicTextarea(WebDriver driver, String nameAttributeValue, String inputValue) {
-//		waitForElementVisible(driver, AbstractBankPageUI.DYNAMIC_TEXTAREA, nameAttributeValue);
-//		sendkeyToElement(driver, AbstractBankPageUI.DYNAMIC_TEXTAREA, inputValue, nameAttributeValue);
-//	}
-//
-//	public void clickToDynamicButton(WebDriver driver, String buttonValue) {
-//		waitForElementClickable(driver, AbstractBankPageUI.DYNAMIC_BUTTON, buttonValue);
-//		clickToElement(driver, AbstractBankPageUI.DYNAMIC_BUTTON, buttonValue);
-//
-//	}
-//
-//	public void clickToDynamicRadioButton(WebDriver driver, String radioButtonValue) {
-//		waitForElementClickable(driver, AbstractBankPageUI.DYNAMIC_RADIO_BUTTON, radioButtonValue);
-//		clickToElement(driver, AbstractBankPageUI.DYNAMIC_RADIO_BUTTON, radioButtonValue);
-//	}
-//
-//	public void clickToDynamicLink(WebDriver driver, String linkName) {
-//		waitForElementClickable(driver, AbstractBankPageUI.DYNAMIC_LINK, linkName);
-//		clickToElement(driver, AbstractBankPageUI.DYNAMIC_LINK, linkName);
-//	}
-//
-//	public boolean isDynamicMessageDisplay(WebDriver driver, String messageText) {
-//		waitForElementVisible(driver, AbstractBankPageUI.DYNAMIC_MESSAGE, messageText);
-//		return isElementDisplayed(driver, AbstractBankPageUI.DYNAMIC_MESSAGE, messageText);
-//
-//	}
-//
-//	public String getDynamicValueByColumnName(WebDriver driver, String columnName) {
-//		waitForElementVisible(driver, AbstractBankPageUI.DYNAMIC_VALUE_BY_COLUMN_NAME, columnName);
-//		return getElementText(driver, AbstractBankPageUI.DYNAMIC_VALUE_BY_COLUMN_NAME, columnName);
-//	}
-
 	private Select select;
 	private Actions action;
 	private WebElement element;
